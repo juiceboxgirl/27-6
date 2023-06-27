@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <table border="2">
+      <caption>
+        La mia tabella
+      </caption>
+      <!-- la tabella si struttura per righe <tr> -->
+      <tr>
+        <!-- intestazione -> table heading <th> -->
+        <th>nome</th>
+        <th>cognome</th>
+        <th>età</th>
+        <th>telefono</th>
+        <th>indirizzo</th>
+      </tr>
+      <!-- nuova riga -->
+      <tr>
+        <td>Alessia</td>
+        <td colspan="2">Cesaroni</td>
+        <td></td>
+        <td>31</td>
+        <td>32xxxxxxx</td>
+        <td>AP</td>
+      </tr>
+    </table>
+    <table>
+      <thead>
+        <tr colspan="5">
+          Intestazione
+        </tr>
+      </thead>
+      <tbody>
+        <td>element</td>
+        <td>element</td>
+        <td>element</td>
+        <td>element</td>
+        <td>element</td>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Table by Alessia Cesaroni</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
